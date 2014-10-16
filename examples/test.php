@@ -1,5 +1,7 @@
 <?php
 
+die(); // Remove me for testing
+
 require 'vendor/autoload.php';
 
 // Connect-Time: 0
