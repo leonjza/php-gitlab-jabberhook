@@ -1,0 +1,20 @@
+{
+    "name": "leonjza/php-gitlab-jabberhook",
+    "description": "A small library to parse Gitlab Webhooks and notify via XMPP",
+    "require": {
+        "fahad19/xmpphp": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leon Jacobs",
+            "email": "leonja511@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-0": {
+            "GitlabXMPPHook": "src/"
+        }
+    }
+}
