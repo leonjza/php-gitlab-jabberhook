@@ -2,7 +2,7 @@
 
 namespace GitlabXMPPHook;
 
-use GitlabXMPPHook\XMPP;
+use GitlabXMPPHook\Xmpp;
 use GitlabXMPPHook\Exception;
 
 class Client
@@ -42,7 +42,7 @@ class Client
         switch ($action) {
             case 'mess':
             case 'message':
-                $call = new XMPP\Message($this);
+                $call = new Xmpp\Message($this);
                 break;
 
             default:

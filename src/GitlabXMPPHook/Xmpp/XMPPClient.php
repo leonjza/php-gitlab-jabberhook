@@ -1,6 +1,6 @@
 <?php
 
-namespace GitlabXMPPHook\XMPP;
+namespace GitlabXMPPHook\Xmpp;
 
 use XMPPHP_XMPP as Xmpp;
 use GitlabXMPPHook\Exception;
