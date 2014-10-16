@@ -30,7 +30,7 @@ class XMPPClient
 
         try {
 
-          $this->connection->connect(1);
+          $this->connection->connect();
           $this->connection->processUntil('session_start');
           $this->connection->presence();
           sleep(0.2);   // Give a few seconds for the dust to settle. Openfire don't like things happening too fast
