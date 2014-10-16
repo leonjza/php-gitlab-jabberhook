@@ -27,7 +27,7 @@ $jabber->setOptions('server.local', 5222, 'username@server.local', 'password');
 $jabber->call('message')->send($message, 'gitlab_users@broadcast.server.local');
 ```
 
-Ensure that this file is accessable by your webserver and setup the service hook in your Gitlab install.
+Ensure that this file is accessable by your webserver and setup the service hook in your Gitlab install. It is suggested that the directory containing all the project files is not world accessible and the `hook.php` file is the only one symlink in a web folder.
 
 Lastly, ensure you have modified the `setOptions()` call with a valid Jabber server and JID.
 
