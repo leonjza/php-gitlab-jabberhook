@@ -1,4 +1,5 @@
 ## php-gitlab-jabberhook
+[![Latest Stable Version](https://poser.pugx.org/leonjza/php-gitlab-jabberhook/v/stable.svg)](https://packagist.org/packages/leonjza/php-gitlab-jabberhook) [![Total Downloads](https://poser.pugx.org/leonjza/php-gitlab-jabberhook/downloads.svg)](https://packagist.org/packages/leonjza/php-gitlab-jabberhook) [![Latest Unstable Version](https://poser.pugx.org/leonjza/php-gitlab-jabberhook/v/unstable.svg)](https://packagist.org/packages/leonjza/php-gitlab-jabberhook) [![License](https://poser.pugx.org/leonjza/php-gitlab-jabberhook/license.svg)](https://packagist.org/packages/leonjza/php-gitlab-jabberhook)
 
 A simple project to parse Gitlab Webhooks and send notifications via XMPP.  
 The main idea is to have the messages sent to a broadcast service. This library has only really been testing using a Openfire jabber server, but will probably work fine on many others.
